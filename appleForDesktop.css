@@ -1,0 +1,65 @@
+/* Desktop mode*/
+@media only screen and (Min-width: 768px) {
+    .box {
+        float: left;
+        width: 50%;
+        height: 0.05cm;
+        padding: 25px;
+        background-color: aliceblue;
+        border-style: solid;
+        border-color: cornflowerblue;
+      }
+    }
+
+h1,h3,h5,h4 {
+    text-align: center; 
+    /*padding-bottom: 10cm;*/
+    color: white;
+}
+div {
+    text-align: center;
+    color: rgb(247, 122, 5);
+}
+button {
+background-color: blue; /* blue */
+color: white;
+padding: 10px 24px;
+font-size: 20px;
+border-radius: 25px;
+}
+
+a{
+    color: rgb(247, 122, 5);  
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+
+.screenButton{
+    background-color: aliceblue;
+    border: 5px;color: rgb(0, 0, 0);
+    padding-top: 25px;
+    width: 50%; 
+    height: 25px;   
+    align-self: auto;
+    float: left;  
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+/* phone mode*/
+@media screen and (max-width: 740px) {
+   
+      .box {
+        
+        width: 100%;
+        height: 0.05cm;
+        padding: 25px;
+        background-color: aliceblue;
+        border-style: solid;
+        border-color: cornflowerblue;
+      }
+}
